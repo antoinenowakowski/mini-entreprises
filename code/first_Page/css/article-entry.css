@@ -27,7 +27,11 @@
     height: 300px;
     border-radius: 10px;
     position: absolute;
-    left: 66%; top: 42%;
+    left: 66%; top: 440px;
+}
+.product:hover {
+    transform: translate(-15px, -10px);
+    transition: cubic-bezier(0,.01,.99,.4) 0.2s;
 }
 .offres {
     position: absolute;
@@ -39,7 +43,7 @@
     box-shadow: 0px 6px #191136;
 }
 .offres:active {
-    box-shadow: 0 0 #efa424;
+    box-shadow: 0 0 ;
     transform: translateY(6px);
 }
 .offres > a {
