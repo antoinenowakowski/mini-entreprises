@@ -42,3 +42,16 @@
     background: cover;
     background-attachment: fixed;
 }
+.fin-de-la-page {
+    background-color: #25184f;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.paragraphe-du-footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #fff;
+    padding-top: 120px;
+    height: 50px;
+}
