@@ -30,17 +30,18 @@
     left: 66%; top: 440px;
 }
 .product:hover {
-    transform: translate(-15px, -10px);
-    transition: cubic-bezier(0,.01,.99,.4) 0.2s;
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px #000;
+    transition: ease-in 0.3s;
 }
 .offres {
     position: absolute;
     left: 8%; top: 800px;
-    background-color: #25184F;
+    background-color: #1d1d1d;
     width: 300px;
     height: 100px;
     border-radius: 60px;
-    box-shadow: 0px 6px #191136;
+    box-shadow: 0px 6px #000000;
 }
 .offres:active {
     box-shadow: 0 0 ;
