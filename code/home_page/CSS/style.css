@@ -1,1 +1,25 @@
 /* Base File Of Css */
+* {
+    margin: 0 auto;
+    width: 100%;
+}
+.img-float-on-the-screen-and-this-is-the-section-of-entry {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 10%; left: 10%;
+    opacity: 0.75;
+    animation: infinite;
+    animation-duration: 5s;
+    animation-name: move;
+    animation-timing-function: ease-out;
+}
+
+@keyframes move {
+    from {
+        transform: perspective(50px) translate3d(-20px, -10px, -1px);
+    }
+    to {
+        transform:  perspective(50px) translate3d(3 0px, 20px, 2px);
+    }
+}
