@@ -3,13 +3,16 @@
     margin: 0 auto;
     width: 100%;
 }
+body {
+    background-color: rgba(221, 221, 221, 0.705);
+}
 .logo-in-the-home-page {
     margin-top: 8%;
     width: 700px;
     height: 700px;
 }
 .home_page_entry {
-    height: 784px;
+    height: 850px;
 }
 .motto {
     font-family: 'Noto Serif Display', serif;

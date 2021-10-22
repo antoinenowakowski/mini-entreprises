@@ -38,12 +38,12 @@
 
 @keyframes move2 {
     0% {
-        transform: perspective(50px) translate3d(-24px, -14px, -3px);
+        transform: perspective(50px) translate3d(-24px, -14px, -3px) rotate(0.4turn);
     }
     50% {
-        transform:  perspective(50px) translate3d(-42px, -18px, 3px);
+        transform:  perspective(50px) translate3d(-42px, -18px, 3px) rotate(0.5turn);
     }
     100% {
-        transform: perspective(50px) translate3d(-24px, -14px, -3px);
+        transform: perspective(50px) translate3d(-24px, -14px, -3px) rotate(0.4turn);
     }
 }
