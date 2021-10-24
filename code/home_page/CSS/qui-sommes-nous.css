@@ -1,6 +1,7 @@
 .who-are-we {
     background-color: #ffffff;
     height: 700px;
+    /* border-top: 4px solid #31572C; */
 }
 .presentation-title {
     font-family: 'Roboto', sans-serif;
@@ -19,31 +20,20 @@
     padding-top: 30px;
 }
 .link-in-the-button {
-    background-color: #4F772D;
-    width: 200px;
-    height: 100px;
-    border-radius: 70px;
-    margin-top: 100px;
-    margin-left: 100px;
-    display: flex;
-    box-shadow: 0px 6px #31572C;
-}
-.link-in-the-button:active {
-    transform: translateY(6px);
-    box-shadow: 0px 0px;
-    transition: 0.1s;
-}
-.link-in-the-button > a:hover {
-    text-decoration: underline;
-}
-.link-in-the-button > a {
-    text-decoration: none;
-    color: #fff;
+    width: 100%;
+    padding-left: 70px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.6em;
-    width: auto;
     padding-top: 30px;
 }
+.link-in-the-button > a {
+    color: #31572C;
+    text-decoration: none;
+}
+.link-in-the-button:hover {
+    text-decoration: underline;
+}
+
 .text--colomn {
     display: flex;
 }
@@ -102,3 +92,4 @@
     border-bottom-right-radius: 35px;
     transition: cubic-bezier(.28,-0.01,0,1.04) 0.4s;
 }
+

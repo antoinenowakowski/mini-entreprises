@@ -1,0 +1,49 @@
+.product {
+    height: 1000px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(206, 206, 206));
+    display: flex;
+}
+
+        /* Partie de gauche (titre, paragraphe & bouton */
+
+.title-of-presentation-product {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3em;
+    padding-left: 70px;
+    width: auto;
+    height: auto;
+    padding-top: 30px;
+}
+.presentation-product {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6em;
+    width: auto;
+    height: auto;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.contain-link-product {
+    height: 100px;
+    padding-top: 30px;
+}
+.link-product {
+    color: #31572C;
+    font-size: 1.6em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding-left: 70px;
+}
+.link-product:hover {
+    text-decoration: underline;
+}
+
+        /* partie de doite (presentation)  */
+
+.slider-in-presentation-product {
+    background-color: red;
+    width: 700px;
+    height: 800px;
+    border-radius: 50px;
+    margin-right: 100px;
+    margin-top: 70px;
+}
