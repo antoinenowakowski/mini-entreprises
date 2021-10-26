@@ -1,0 +1,53 @@
+.service {
+    height: 1000px;
+    background: linear-gradient(rgb(206, 206, 206), rgb(255, 255, 255));
+}
+
+.contain-service {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.contain-picture-service {
+    width: 900px;
+    height: 600px;
+    background-image: url(../../img_logo_icon/img/bird_005.jpg);
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+.title-service {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3em;
+    padding-left: 70px;
+    width: auto;
+    height: auto;
+    padding-top: 200px;
+}
+.paragraphe-service {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.contain-link-service {
+    height: 100px;
+    padding-top: 30px;
+}
+.link-service {
+    color: #31572C;
+    font-size: 1.6em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding-left: 70px;
+}
+.link-service:hover {
+    text-decoration: underline;
+}

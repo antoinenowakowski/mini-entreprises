@@ -1,5 +1,5 @@
 .product {
-    height: 1000px;
+    height: 600px;
     background: linear-gradient(rgb(255, 255, 255), rgb(206, 206, 206));
     display: flex;
 }
@@ -39,11 +39,13 @@
 
         /* partie de doite (presentation)  */
 
-.slider-in-presentation-product {
-    background-color: red;
+.picture-of-product {
+    background-image: url(../../img_logo_icon/img/bird_004.jpg);
     width: 700px;
     height: 800px;
     border-radius: 50px;
     margin-right: 100px;
     margin-top: 70px;
+    background-size: cover;
+    object-fit: scale-down;
 }

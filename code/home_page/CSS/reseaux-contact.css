@@ -1,0 +1,71 @@
+.reseaux-contact {
+    height: 650px;
+    background: linear-gradient(rgb(255, 255, 255), #cccccc)
+}
+.link-iframe-reseaux {
+    display: flex;
+    height: 550px;
+    justify-content: space-evenly;
+}
+.link-reseaux {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.link-reseaux > a {
+    color:  #132A13;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2em;
+    width: auto;
+    text-decoration: none;
+    margin-left: 0px;
+    padding-top: 30px;
+}
+.link-reseaux > a:hover {
+    text-decoration: underline;
+}
+.iframe-insta-reseaux {
+    width: 500px;
+    height: 500px;
+    background-image: url(../../img_logo_icon/img/bird_0006.jpg);
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.iframe-tiktok-reseaux {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(../../img_logo_icon/img/bird_0007.jpg);
+}
+
+
+
+.mail-tel-adresse-contact {
+    height: 120px;
+    display: flex;
+    padding-left: 120px;
+    width: auto;
+}
+.mail-contact > a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #31572C;
+    font-size: 1.6em;
+}
+.mail-contact > a:hover {
+    text-decoration: underline;
+}
+.tel-contact {
+    font-size: 1.6em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #31572C;
+}
+.adresse-contact {
+    font-size: 1.6em;
+    font-family: 'Roboto', sans-serif;
+    color: #31572C;
+}

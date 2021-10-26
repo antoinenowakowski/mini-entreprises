@@ -1,0 +1,36 @@
+footer {
+    background-color: #31572C;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.copy {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.4em;
+    padding-top: 125px;
+    width: auto;
+    margin-left: 120px;
+    color: #ffffff;
+}
+.images-banque {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.4em;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 125px;
+    width: auto;
+}
+.images-banque:hover {
+    text-decoration: underline;
+}
+.github {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.4em;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 125px;
+    width: auto;
+}
+.github:hover {
+    text-decoration: underline;
+}

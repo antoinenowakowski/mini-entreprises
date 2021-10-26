@@ -1,50 +1,97 @@
 .carte1 {
     width: 300px;
     height: 200px;
-    position: absolute; left: 10%; top: 10%;
+    position: absolute; left: 10%; top: 225px;
     opacity: 0.75;
     animation: infinite;
-    animation-duration: 14s;
+    animation-duration: 26s;
     animation-name: move1;
+    transform: rotate(1turn);
     animation-timing-function: ease-out;
-    background-color: green;
-    border-radius: 20px;
 }
 
 @keyframes move1 {
     0% {
-        transform: perspective(50px) translate3d(-20px, -10px, -1px) rotate(0.5turn);
+        transform: perspective(50px) translate3d(-20px, -10px, -1px) rotate(0.01turn);
     }
     50% {
-        transform:  perspective(50px) translate3d(30px, 20px, 2px) rotate(0.51turn);
+        transform:  perspective(50px) translate3d(30px, 20px, 2px) rotate(0.02turn);
     }
     100% {
-        transform: perspective(50px) translate3d(-20px, -10px, -1px) rotate(0.5turn);
+        transform: perspective(50px) translate3d(-20px, -10px, -1px) rotate(0.01turn);
     }
 }
 
 
 .carte2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 40px;
-    position: absolute; left: 75%; top: 26%;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    position: absolute; left: 1450px; top: 120px;
     opacity: 0.85;
     animation: infinite;
-    animation-duration: 10s;
+    animation-duration: 16s;
     animation-name: move2;
     animation-timing-function: ease-out;
-    background-color: #4F772D;
 }
 
 @keyframes move2 {
     0% {
+        transform: perspective(50px) translate3d(-24px, -8px, -3px) rotate(0.2turn);
+    }
+    50% {
+        transform:  perspective(50px) translate3d(-42px, -18px, 3px) rotate(0.3turn);
+    }
+    100% {
+        transform: perspective(50px) translate3d(-24px, -8px, -3px) rotate(0.2turn);
+    }
+}
+
+.carte3 {
+    width: 600px;
+    height: 400px;
+    border-radius: 40px;
+    position: absolute; left: 1300px; top: 600px;
+    opacity: 0.85;
+    animation: infinite;
+    animation-duration: 240s;
+    animation-name: move3;
+    animation-timing-function: ease-out;
+}
+
+@keyframes move3 {
+    0% {
         transform: perspective(50px) translate3d(-24px, -14px, -3px) rotate(0.4turn);
     }
     50% {
-        transform:  perspective(50px) translate3d(-42px, -18px, 3px) rotate(0.5turn);
+        transform:  perspective(50px) translate3d(-36px, -18px, 3px) rotate(0.8deg);
     }
     100% {
         transform: perspective(50px) translate3d(-24px, -14px, -3px) rotate(0.4turn);
+    }
+}
+
+
+.carte4 {
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+    position: absolute; left: 620px; top: 650px;
+    opacity: 0.85;
+    animation: infinite;
+    animation-duration: 12s;
+    animation-name: move4;
+    animation-timing-function: ease-out;
+}
+
+@keyframes move4 {
+    0% {
+        transform: perspective(50px) translate(24px, 4px) rotate(10deg);
+    }
+    50% {
+        transform:  perspective(50px) translate(12px, -8px) rotate(20deg);
+    }
+    100% {
+        transform: perspective(50px) translate(24px, 4px) rotate(10deg);
     }
 }
