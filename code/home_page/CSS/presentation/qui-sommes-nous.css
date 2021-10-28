@@ -19,21 +19,6 @@
     padding-left: 70px;
     padding-top: 30px;
 }
-.link-in-the-button {
-    width: 100%;
-    padding-left: 70px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.6em;
-    padding-top: 30px;
-}
-.link-in-the-button > a {
-    color: #31572C;
-    text-decoration: none;
-}
-.link-in-the-button:hover {
-    text-decoration: underline;
-}
-
 .text--colomn {
     display: flex;
 }

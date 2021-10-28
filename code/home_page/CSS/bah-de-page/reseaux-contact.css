@@ -27,7 +27,7 @@
 .iframe-insta-reseaux {
     width: 500px;
     height: 500px;
-    background-image: url(../../img_logo_icon/img/bird_0006.jpg);
+    background-image: url(../../../img_logo_icon/img/bird_0006.jpg);
     background-size: cover;
     object-fit: cover;
     border-radius: 10px;
@@ -38,7 +38,7 @@
     border-radius: 10px;
     background-size: cover;
     object-fit: cover;
-    background-image: url(../../img_logo_icon/img/bird_0007.jpg);
+    background-image: url(../../../img_logo_icon/img/bird_0007.jpg);
 }
 
 

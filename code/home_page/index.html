@@ -20,13 +20,15 @@
     <!-- titre de la page -->
     <title>PiafNco</title>
     <!-- fichiers css -->
-    <link rel="stylesheet" href="css/home_page.css">
-    <link rel="stylesheet" href="css/image_in_the_home_page.css">
-    <link rel="stylesheet" href="css/qui-sommes-nous.css">
-    <link rel="stylesheet" href="css/product.css">
-    <link rel="stylesheet" href="css/service.css">
-    <link rel="stylesheet" href="css/reseaux-contact.css">
-    <link rel="stylesheet" href="css/footer.css">   
+    <link rel="stylesheet" href="css/home-css/home_page.css">
+    <link rel="stylesheet" href="css/home-css/image_in_the_home_page.css">
+    <link rel="stylesheet" href="css/presentation/qui-sommes-nous.css">
+    <link rel="stylesheet" href="css/presentation/open-box.css">
+    <link rel="stylesheet" href="css/service&produit/product.css">
+    <link rel="stylesheet" href="css/service&produit/service.css">
+    <link rel="stylesheet" href="css/bah-de-page/footer.css">
+    <link rel="stylesheet" href="css/bah-de-page/reseaux-contact.css">   
+    
     <!-- icon du title -->
     <link rel="shortcut icon" href="../img_logo_icon/icon/piaf_nco_blanc_rond_avec_un_dgrd.png" type="image/x-icon">
 </head>
@@ -78,9 +80,23 @@
                 </p>
     
                 <div class="button-in-the-section-of-presentation">
-                    <p class="link-in-the-button">
-                        <a href="../presentation/index.html">En savoir plus sur nous ▶</a>
-                    </p>
+                        <button id="myBtn">En savoir plus sur nous ▶</button>
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                    <p class="text-close">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                                        Ut enim ad minim veniam,<br>
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br>
+                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate<br>
+                                        velit esse cillum dolore eu fugiat nulla pariatur.<br>
+                                    </p>
+                            </div>
+                        </div>
                 </div>
     
             </div>
@@ -140,9 +156,17 @@
                     velit esse cillum dolore eu fugiat nulla pariatur.<br>
                 </p>
 
-                <p class="contain-link-service">
-                    <a href="" class="link-service">En savoir plus !👀</a>
-                </p>
+                <button id="myBtn-service">En savoir plus !👀</button>
+
+                    <!-- The Modal -->
+                    <div id="myModal-service" class="modal-service">
+                      <!-- Modal content -->
+                    <div class="modal-content-service">
+                    <span class="close-service">&times;</span>
+                    <p class="text-close-service">
+                        Some text in tha Modal..
+                    </p>
+                </div>
             </div>
 
         </div>
@@ -193,6 +217,8 @@
 
     </footer>
 
-
+    <!-- fichiers JavaScript -->
+    <script src="JS/presentation.js"></script>
+    <script src="JS/service.js"></script>
 </body>
 </html>
