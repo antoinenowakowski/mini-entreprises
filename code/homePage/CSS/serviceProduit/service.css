@@ -12,7 +12,7 @@
 .contain-picture-service {
     width: 900px;
     height: 600px;
-    background-image: url(../../../img_logo_icon/img/bird_005.jpg);
+    background-image: url(../../../imgLogoIcon/img/bird_005.jpg);
     background-size: cover;
     object-fit: cover;
     border-radius: 40px;
