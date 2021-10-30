@@ -90,3 +90,37 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  /* responsive */
+  @media screen and (max-width: 1130px) {
+    .service {
+      height: auto;
+    }
+    .contain-service {
+      flex-direction: column;
+    }
+    .contain-picture-service {
+      order: 2;
+      margin-bottom: 200px;
+    }
+    .contain-title-and-paragrpahe {
+      order: 1;
+    }
+    .title-service {
+      text-align: center;
+    }
+    .paragraphe-service {
+      text-align: center;
+    }
+    #myBtn-service {
+      font-size: 2rem;
+      justify-content: center;
+      width: 100%;
+      margin-left: 0;
+      padding-left: 100px;
+    }
+    .contain-picture-service {
+      justify-content: center;
+      margin-left: auto;
+    }
+  }

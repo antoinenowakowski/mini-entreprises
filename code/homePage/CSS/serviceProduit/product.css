@@ -49,3 +49,29 @@
     background-size: cover;
     object-fit: scale-down;
 }
+
+/* responsive */
+@media screen and (max-width: 1325px) {
+    .title-of-presentation-product {
+        padding-left: 0;
+        text-align: center;
+    }
+    .presentation-product {
+        text-align: center;
+    }
+    .product {
+        flex-direction: column;
+        height: auto;
+    }
+    .picture-of-product {
+        margin-right: auto;
+        margin-top: auto;
+    }
+    .contain-link-product {
+        width: 100%;
+        text-align: center;
+    }
+    .picture-of-product {
+        border-radius: 20px;
+    }
+}
