@@ -13,6 +13,10 @@
 @media screen and (max-width: 1015px) {
   #myBtn {
     font-size: 2rem;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    margin-left: 20%;
   }
 }
 /* The Modal (background) */
