@@ -10,7 +10,11 @@
 #myBtn:hover {
   text-decoration: underline;
 }
-
+@media screen and (max-width: 1015px) {
+  #myBtn {
+    font-size: 2rem;
+  }
+}
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
