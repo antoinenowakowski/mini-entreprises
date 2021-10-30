@@ -29,6 +29,16 @@
     .contain-image {
       flex-direction: column;
     }
+    .back {
+        font-size: 2em;
+        font-weight: 900;
+    }
+    .entry-title {
+        font-size: 6em;
+    }
+    .column-image {
+        margin: 2px;
+    }
   }
   
 .bouton-back {
