@@ -4,10 +4,12 @@
     position: absolute; left: 10%; top: 225px;
     opacity: 0.75;
     animation: infinite;
-    animation-duration: 26s;
+    animation-duration: 2s;
+    /* 26s */
     animation-name: move1;
     transform: rotate(1turn);
     animation-timing-function: ease-out;
+    background-color: red;  
 }
 
 @keyframes move1 {
@@ -30,9 +32,11 @@
     left: 1450px; top: 120px;
     opacity: 0.95;
     animation: infinite;
-    animation-duration: 16s;
+    animation-duration: 2s;
+    /* 16s */
     animation-name: move2;
     animation-timing-function: ease-out;
+    background-color: rgb(132, 0, 255);
 }
 
 @keyframes move2 {
@@ -54,9 +58,11 @@
     left: 1230px; top: 600px;
     opacity: 0.85;
     animation: infinite;
-    animation-duration: 220s;
+    animation-duration: 2s; 
+    /* 220s */
     animation-name: move3;
     animation-timing-function: ease-out;
+    background-color: rgb(187, 255, 0);
 }
 
 @keyframes move3 {
@@ -82,6 +88,7 @@
     animation-duration: 12s;
     animation-name: move4;
     animation-timing-function: ease-out;
+    background-color: rgb(0, 225, 255);
 }
 
 @keyframes move4 {
@@ -93,5 +100,101 @@
     }
     100% {
         transform: perspective(50px) translate(24px, 4px) rotate(10deg);
+    }
+}
+
+/* responsive */
+@media screen and (max-width: 1840px) {
+    .carte3 {
+        width: 470px;
+        height: 300px;
+    }
+    .carte4 {
+        position: absolute; left: 420px; top: 650px;
+    }
+}
+@media screen and (max-width: 1725px) {
+    .carte2 {
+        position: absolute; 
+        left: 1300px; top: 120px;
+    }
+    .carte3 {
+        width: 430px;
+        height: 270px;
+    }
+}
+@media screen and (max-width: 1680px) {
+    .carte3 {
+        width: 400px;
+        height: 240px;
+        position: absolute; 
+        left: 1130px; top: 600px;
+    }
+}
+@media screen and (max-width: 1582px) {
+    .carte2 {
+        position: absolute; 
+        left: 1200px; top: 120px;
+    }
+}
+@media screen and (max-width: 1545px) {
+    .carte3 {
+        position: absolute; 
+        left: 1000px; top: 750px;
+    }
+}
+@media screen and (max-width: 1480px) {
+    .carte2 {
+        position: absolute; 
+        left: 970px; top: 100px;
+    }
+    .carte4 {
+        position: absolute; left: 300px; top: 650px;
+    }
+}
+@media screen and (max-width: 1420px) {
+    .carte3 {
+        position: absolute; 
+        left: 850px; top: 750px;
+        width: 350px;
+        height: 190px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .carte3 {
+        width: 300px;
+        height: 140px;
+    }
+    .carte4 {
+        position: absolute; left: 160px; top: 650px;
+    }
+    .carte2 {
+        position: absolute; 
+        left: 850px; top: 30px;
+    }
+    .carte1 {
+        position: absolute; left: 80px; top: 100px;
+    }
+}
+@media screen and (max-width: 1145px) {
+    .carte3 {
+        position: absolute; 
+        left: 700px; top: 750px;
+    }
+    .carte2 {
+        position: absolute; 
+        left: 550px; top: 30px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .carte3 {
+        position: absolute; 
+        left: 500px; top: 725px;
+        width: 250px;
+        height: 140px;
+    }
+    .carte1 {
+        width: 200px;
+        height: 150px;
     }
 }
