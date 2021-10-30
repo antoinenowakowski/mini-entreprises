@@ -4,8 +4,7 @@
     position: absolute; left: 10%; top: 225px;
     opacity: 0.75;
     animation: infinite;
-    animation-duration: 2s;
-    /* 26s */
+    animation-duration: 26s;
     animation-name: move1;
     transform: rotate(1turn);
     animation-timing-function: ease-out;
@@ -31,8 +30,7 @@
     left: 1450px; top: 120px;
     opacity: 0.95;
     animation: infinite;
-    animation-duration: 2s;
-    /* 16s */
+    animation-duration: 16s;
     animation-name: move2;
     animation-timing-function: ease-out;
 }
@@ -56,8 +54,7 @@
     left: 1230px; top: 600px;
     opacity: 0.85;
     animation: infinite;
-    animation-duration: 2s; 
-    /* 220s */
+    animation-duration: 220s; 
     animation-name: move3;
     animation-timing-function: ease-out;
 }
