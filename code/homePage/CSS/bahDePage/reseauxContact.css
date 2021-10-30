@@ -69,3 +69,34 @@
     font-family: 'Roboto', sans-serif;
     color: #31572C;
 }
+/* responsive */
+
+@media screen and (max-width: 1155px) {
+    .reseaux-contact {
+        height: auto;
+        flex-direction: row;
+    }
+    .link-iframe-reseaux {
+        flex-direction: column;
+        height: auto;
+    }
+    .link-reseaux {
+        flex-direction: row;
+        margin: 100px;
+    }
+    .iframe-insta-reseaux {
+        margin-top: 10px;
+    }
+    .iframe-tiktok-reseaux {
+        margin-top: 10px;
+    }
+    .mail-tel-adresse-contact {
+        flex-direction: column;
+        margin-top: 20px;
+        height: auto;
+    }
+    .mail-tel-adresse-contact > div {
+        margin-top: 10px;
+        font-weight: 600;
+    }
+}
