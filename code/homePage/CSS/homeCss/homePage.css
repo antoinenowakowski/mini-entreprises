@@ -13,12 +13,14 @@ body {
     height: 700px;
 }
 .home_page_entry {
-    height: 850px;
+    height: 100vh;
+    background-color: red;
+    position: relative;
 }
 .motto {
     font-family: 'Noto Serif Display', serif;
     font-size: 2.4em;
-    /* width: 500px; */
+    width: auto;
     text-align: center;
     margin-top: -225px;
     font-weight: 500;
