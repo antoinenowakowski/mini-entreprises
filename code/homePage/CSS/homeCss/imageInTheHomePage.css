@@ -179,7 +179,7 @@
         left: 550px; top: 30px;
     }
 }
-@media screen and (max-width: 990px) {
+@media (max-width: 800px) {
     .carte3 {
         position: absolute; 
         left: 500px; top: 725px;
