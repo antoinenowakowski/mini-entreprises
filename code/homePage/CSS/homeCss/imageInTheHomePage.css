@@ -3,6 +3,7 @@
     height: 200px;
     position: absolute; left: 10%; top: 225px;
     opacity: 0.75;
+    z-index: -1;
     animation: infinite;
     animation-duration: 26s;
     animation-name: move1;
@@ -31,6 +32,7 @@
     opacity: 0.95;
     animation: infinite;
     animation-duration: 16s;
+    z-index: -1;
     animation-name: move2;
     animation-timing-function: ease-out;
 }
@@ -56,6 +58,7 @@
     animation: infinite;
     animation-duration: 220s; 
     animation-name: move3;
+    z-index: -1;
     animation-timing-function: ease-out;
 }
 
@@ -81,6 +84,7 @@
     animation: infinite;
     animation-duration: 12s;
     animation-name: move4;
+    z-index: -1;
     animation-timing-function: ease-out;
 }
 
