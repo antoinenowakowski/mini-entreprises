@@ -1,7 +1,8 @@
 .product {
     height: 600px;
-    background: linear-gradient(rgb(255, 255, 255), rgb(206, 206, 206));
+    background: linear-gradient(rgb(255, 255, 255), rgb(223, 223, 223));
     display: flex;
+    z-index: 3;
 }
 
         /* Partie de gauche (titre, paragraphe & bouton */
@@ -45,13 +46,13 @@
     height: 800px;
     border-radius: 50px;
     margin-right: 100px;
-    margin-top: 70px;
     background-size: cover;
+    margin-top: -100px;
     object-fit: scale-down;
 }
 
 /* responsive */
-@media screen and (max-width: 1325px) {
+@media screen and (max-width: 1661px) {
     .title-of-presentation-product {
         padding-left: 0;
         text-align: center;

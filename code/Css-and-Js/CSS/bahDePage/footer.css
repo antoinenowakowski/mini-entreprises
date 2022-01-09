@@ -1,34 +1,24 @@
 footer {
-    background-color: #162201;
-    height: 300px;
+    background-color: #1b2702;
+    height: 150px;
     display: flex;
     justify-content: space-evenly;
 }
 .copy {
     font-family: 'PT Sans', sans-serif;
     font-size: 2.4em;
-    padding-top: 125px;
+    padding-top: 60px;
     width: auto;
     margin-left: 120px;
     color: #ffffff;
 }
-.images-banque {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 2.4em;
-    color: #fff;
-    text-decoration: none;
-    padding-top: 125px;
-    width: auto;
-}
-.images-banque:hover {
-    text-decoration: underline;
-}
+
 .github {
     font-family: 'PT Sans', sans-serif;
     font-size: 2.4em;
     color: #fff;
     text-decoration: none;
-    padding-top: 125px;
+    padding-top: 60px;
     width: auto;
 }
 .github:hover {

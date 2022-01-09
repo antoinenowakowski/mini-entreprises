@@ -1,6 +1,7 @@
 .service {
     height: 1000px;
-    background: linear-gradient(rgb(206, 206, 206), rgb(255, 255, 255));
+    background: linear-gradient(rgb(223, 223, 223), rgb(255, 255, 255));
+    z-index: -3;
 }
 
 .contain-service {
