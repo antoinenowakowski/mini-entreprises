@@ -1,0 +1,77 @@
+.product {
+    height: 600px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(206, 206, 206));
+    display: flex;
+}
+
+        /* Partie de gauche (titre, paragraphe & bouton */
+
+.title-of-presentation-product {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3em;
+    padding-left: 70px;
+    width: auto;
+    height: auto;
+    padding-top: 30px;
+}
+.presentation-product {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6em;
+    width: auto;
+    height: auto;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.contain-link-product {
+    height: 100px;
+    padding-top: 30px;
+}
+.link-product {
+    color: #31572C;
+    font-size: 1.6em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding-left: 70px;
+}
+.link-product:hover {
+    text-decoration: underline;
+}
+
+        /* partie de doite (presentation)  */
+
+.picture-of-product {
+    background-image: url(../../../imgLogoIcon/img/bird_004.jpg);
+    width: 700px;
+    height: 800px;
+    border-radius: 50px;
+    margin-right: 100px;
+    margin-top: 70px;
+    background-size: cover;
+    object-fit: scale-down;
+}
+
+/* responsive */
+@media screen and (max-width: 1325px) {
+    .title-of-presentation-product {
+        padding-left: 0;
+        text-align: center;
+    }
+    .presentation-product {
+        text-align: center;
+    }
+    .product {
+        flex-direction: column;
+        height: auto;
+    }
+    .picture-of-product {
+        margin-right: auto;
+        margin-top: auto;
+    }
+    .contain-link-product {
+        width: 100%;
+        text-align: center;
+    }
+    .picture-of-product {
+        border-radius: 20px;
+    }
+}
