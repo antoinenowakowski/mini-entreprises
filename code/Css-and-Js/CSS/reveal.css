@@ -1,0 +1,32 @@
+.reveal-presentation {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease-in-out,
+    opacity 1s ease-in-out;
+}
+.reveal-presentation.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.revealProduct {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease-in-out,
+    opacity 1s ease-in-out;
+}
+.revealProduct.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.revealService {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 1s ease-in-out,
+    opacity 1s ease-in-out;
+}
+.revealService.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
