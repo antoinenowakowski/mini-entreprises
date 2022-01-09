@@ -13,16 +13,13 @@
     width: auto;
 }
 .link-reseaux > a {
-    color:  #132A13;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 2em;
-    width: auto;
-    text-decoration: none;
-    margin-left: 0px;
-    padding-top: 30px;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
 }
-.link-reseaux > a:hover {
-    text-decoration: underline;
+.img-for-reseaux{
+    width: auto;
+    margin-left: 0px;
 }
 .iframe-insta-reseaux {
     width: 500px;

@@ -22,6 +22,17 @@
     padding-left: 70px;
     padding-top: 30px;
 }
+.contain-diagramme {
+    width: 100%;
+    height: 100%;
+}
+.img-in-the-modal {
+    width: 80%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 .text--colomn {
     display: flex;
 }
