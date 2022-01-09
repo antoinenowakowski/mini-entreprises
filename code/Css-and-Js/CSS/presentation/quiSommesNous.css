@@ -35,8 +35,8 @@
 }
 @media screen and (max-width: 650px) {
     .img-in-the-modal {
-        width: 75%;
-        height: 65%;
+        width: 80%;
+        height: 30%;
     }
 }
 .text--colomn {
