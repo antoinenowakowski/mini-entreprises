@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- GitHub :-> https://github.com/antoinenowakowski/mini-entreprises -->
 <!--
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    
 @@@.........................................................................................................../%%%%%%%%%%%%%%*.....................@@@
@@ -80,13 +81,51 @@
     <link rel="stylesheet" href="Css-and-Js/CSS/bahDePage/footer.css">
     <link rel="stylesheet" href="Css-and-Js/CSS/bahDePage/reseauxContact.css">   
     <link rel="stylesheet" href="Css-and-Js/CSS/partenariat/prt.css">
-    <link rel="stylesheet" href="CSs-and-Js/CSS/reveal.css">
     
     <!-- icon du title -->
     <link rel="shortcut icon" href="imgLogoIcon/icon/piaf_nco_blanc_rond_avec_un_dgrd.png" type="image/x-icon">
+
+    <!-- Jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
 
+    <style> 
+    /* reveal */
+        .reveal-presentation{
+        transform: translateX(-100%);
+        opacity: 0;
+        transition: transform 1s ease-in-out,
+        opacity 1s ease-in-out;
+    }
+    .reveal-presentation.active{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    .revealProduct{
+        transform: translateX(-100%);
+        opacity: 0;
+        transition: transform 1s ease-in-out,
+        opacity 1s ease-in-out;
+    }
+    .revealProduct.active{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    .revealService {
+        transform: translateX(200%);
+        opacity: 0;
+        transition: transform 1s ease-in-out,
+        opacity 1s ease-in-out;
+    }
+    .revealService.active {
+        transform: translateX(0%);
+        transform: initial;
+        opacity: 1;
+    }
+    </style>
 
     <div class="home_page_entry">
         <!-- contient toute les images -->
@@ -121,17 +160,17 @@
     </div>
 
 
-    <section class="who-are-we, reveal-presentation">
+    <section class="who-are-we reveal-presentation">
 
         <div class="text--colomn">
 
             <div class="text-title-and-button">
 
                 <h1 class="presentation-title">Qui sommes nous ?</h1>
-                <p class="description">Salut 👋 <br> 
-                    Nous sommes la mini entreprise du <br> 
+                <p class="description">Salut 👋 !<br> 
+                    Nous sommes la <u style="color: #A8396D;">mini entreprise</u> du <br> 
                     &nbsp; collège Notre Dame de lancrel.<br> 
-                    Notre but est de fabriquer un jeu autour<br> 
+                    Notre but est de <strong><u style="text-decoration: underline dotted;">fabriquer un jeu</u> </strong>autour<br> 
                     &nbsp; de l’écologie et un nichoir pour oiseaux.<br>
                 </p>
                 <a href="https://piafnco.fr/imgLogoIcon/img/servicess.png" target="_blank" class="linkToDiagramme">En savoir plus sur nous▶</a>
@@ -155,8 +194,8 @@
                 
                 <h1 class="title-of-presentation-product">Produit</h1>
                 <p class="presentation-product">
-                    Notre produit est un jeu de plateau (sept familles/cartes), <br> 
-                    avec ce jeu il sera vendu, une niche fabriquée en bois (non traitée). <br>
+                    Notre produit est un <u style="color: #8C64A3;">jeu de plateau</u>  <br class="br">(sept familles/cartes), <br> 
+                    avec ce jeu il sera vendu, <br class="br"> <u style="color: #8C64A3;">un nichoir</u> fabriqué en bois (non traité). <br>
                 </p>
                 <!-- <p class="contain-link-product">
                     <a href="" class="link-product">Acheter le produit ici ! 😎</a>
@@ -183,9 +222,9 @@
 
                 <p class="title-service">Service</p>
                 <p class="paragraphe-service">
-                    Notre service consiste à sensibiliser à la disparition animale, <br> 
+                    Notre service consiste à <u>sensibiliser</u> <br class="br">à la disparition animale, <br> 
                     notamment celles des oiseaux et la protection des oiseaux. <br> 
-                    Nous allons intervenir dans des écoles (primaire & collège) pour bien sensibiliser. <br> 
+                    Nous allons intervenir dans des écoles (primaire & collège).<br> 
                 </p>
 
                 <button id="myBtn-service">En savoir plus !👀</button>
@@ -259,15 +298,27 @@
 
         <p class="copy">&copy;Copyright 2021</p>
         <!-- <a href="imageBank/index.html" class="images-banque">Blog Notre Dame</a> -->
-        <a href="https://github.com/antoinenowakowski/mini-entreprises" class="github" target="_blank">GitHub</a>
-        <!-- <div></div> -->
 
     </footer>
 
 
     <!-- fichiers JavaScript -->
-    <script src="Css-and-Js/JS/presentation.js"></script>
     <script src="Css-and-Js/JS/service.js"></script>
     <script src="Css-and-Js/JS/reveal.js"></script>
+    <script>
+
+        var w = window.innerWidth || document.documentElement.clientWidth || 
+                document.body.clientWidth;
+        console.log(w);
+
+        
+        
+
+        if (w > 1060) {
+            // const br = document.getElementsByTagName('br');
+            $("br").remove(".br");
+            console.log("hello world");
+        }
+    </script>
 </body>
 </html>

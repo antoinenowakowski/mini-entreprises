@@ -16,8 +16,6 @@ window.addEventListener('scroll', () => {
     } 
     if(scrollTop > (scrollTop + getpositionProduct).toFixed() - clientHeight * 0.8){
         revealProduct.classList.add('active')
-    }
-    if(scrollTop > (scrollTop +  getpositionService).toFixed() - clientHeight * 0.8){
         revealService.classList.add('active')
     }
 })

@@ -1,7 +1,6 @@
 .who-are-we {
     background-color: #ffffff;
     height: 700px;
-    /* border-top: 4px solid #31572C; */
 }
 .text-title-and-button {
     justify-content: center;
@@ -104,6 +103,7 @@
     }
     .presentation-title {
         font-size: 4em;
+        color: #315b32;
     }
     .description {
         font-size: 2rem;   
@@ -112,10 +112,13 @@
         text-align: center;
     }
     .linkToDiagramme {
-        font-size: 2.6rem;   
+        font-size: 2.6rem;
+        color: #315b32;   
         padding-left: 95px;
         padding-top: 0;
+        font-family: 'Roboto', sans-serif;
         text-align: center;
+        background-color: transparent;
     }
     .colomn-image {
         flex-direction: column;
